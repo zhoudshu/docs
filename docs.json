@@ -16,6 +16,146 @@
           "index",
           "quickstart"
         ]
+      },
+      {
+        "group": "AILLM",
+        "pages": [
+          "aillm.nscloud.ai/api-reference-cn/index",
+          {
+            "group": "对话接口",
+            "pages": [
+              {
+                "group": "Anthropic",
+                "openapi": "/openapi/global/zh/anthropic.bundled.yaml",
+                "pages": [
+                  "POST /v1/chat/completions",
+                  "POST /v1/messages"
+                ]
+              },
+              {
+                "group": "OpenAI",
+                "openapi": "/openapi/global/zh/openai.bundled.yaml",
+                "pages": [
+                  "POST /v1/chat/completions",
+                  "POST /v1/messages",
+                  "POST /v1/responses"
+                ]
+              },
+              {
+                "group": "Google",
+                "openapi": "/openapi/global/zh/google.bundled.yaml",
+                "pages": [
+                  "POST /v1/chat/completions"
+                ]
+              },
+              {
+                "group": "DeepSeek",
+                "openapi": "/openapi/global/zh/deepseek.bundled.yaml",
+                "pages": [
+                  "POST /v1/chat/completions",
+                  "POST /v1/messages"
+                ]
+              },
+              {
+                "group": "Volcengine",
+                "openapi": "/openapi/global/zh/volcengine.bundled.yaml",
+                "pages": [
+                  "POST /v1/chat/completions",
+                  "POST /v1/responses"
+                ]
+              },
+              {
+                "group": "DashScope",
+                "openapi": "/openapi/global/zh/dashscope.bundled.yaml",
+                "pages": [
+                  "POST /v1/chat/completions",
+                  "POST /v1/responses"
+                ]
+              },
+              {
+                "group": "Z.AI",
+                "openapi": "/openapi/global/zh/zai.bundled.yaml",
+                "pages": [
+                  "POST /v1/chat/completions",
+                  "POST /v1/responses"
+                ]
+              },
+              {
+                "group": "Moonshot AI",
+                "openapi": "/openapi/global/zh/moonshotai.bundled.yaml",
+                "pages": [
+                  "POST /v1/chat/completions",
+                  "POST /v1/messages"
+                ]
+              },
+              {
+                "group": "xAI",
+                "openapi": "/openapi/global/zh/xai.bundled.yaml",
+                "pages": [
+                  "POST /v1/chat/completions",
+                  "POST /v1/messages"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "图像生成",
+            "pages": [
+              {
+                "group": "DashScope",
+                "openapi": "/openapi/global/zh/dashscope.bundled.yaml",
+                "pages": [
+                  "POST /v1/images/generations"
+                ]
+              },
+              {
+                "group": "Volcengine",
+                "openapi": "/openapi/global/zh/volcengine.bundled.yaml",
+                "pages": [
+                  "POST /v1/images/generations"
+                ]
+              },
+              {
+                "group": "Z.AI",
+                "openapi": "/openapi/global/zh/zai.bundled.yaml",
+                "pages": [
+                  "POST /v1/images/generations"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "图像编辑",
+            "pages": [
+              {
+                "group": "DashScope",
+                "openapi": "/openapi/global/zh/dashscope.bundled.yaml",
+                "pages": [
+                  "POST /v1/images/edits"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "音频转录",
+            "pages": [
+              {
+                "group": "DashScope",
+                "openapi": "/openapi/global/zh/dashscope.bundled.yaml",
+                "pages": [
+                  "POST /v1/audio/transcriptions"
+                ]
+              },
+              {
+                "group": "Z.AI",
+                "openapi": "/openapi/global/zh/zai.bundled.yaml",
+                "pages": [
+                  "POST /v1/audio/transcriptions"
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "global": {
