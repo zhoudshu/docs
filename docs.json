@@ -166,8 +166,8 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "https://www.nsclouds.com/",
+        "label": "官方网站"
       }
     ],
     "primary": {
